@@ -1,12 +1,24 @@
 ---
 layout: page
-title: project 1
+title: Statistical Distance and Glivenko–Cantelli theorem
 description: with background image
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
+toc:
+  beginning: true
 ---
+
+In this project, we made the connection with Kolmogorov–Smirnov distance
+
+$$
+d_{KS}(\mu,\nu) = \sup_{r\in\mathbb{R}} |F_\mu(r)-F_\nu(r)|
+$$
+
+between the $$f$$-divergence $$\int f(d\mu/d\nu)d\nu$$.
+
+## Motivation
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
